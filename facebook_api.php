@@ -1,6 +1,9 @@
 <?php
 
 require_once ('src/fb_token.php');
+require __DIR__ . '/vendor/autoload.php';
+
+use \Curl\Curl;
 
 class facebook_api
 {
